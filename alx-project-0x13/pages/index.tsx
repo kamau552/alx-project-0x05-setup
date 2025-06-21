@@ -17,7 +17,7 @@ const Home: React.FC = () => {
     if (!isLoading) {
       setImageUrl(responseData?.message)
     }
-  }, [isLoading])
+  }, [isLoading, responseData?.message])
 
 
 
